@@ -1,0 +1,326 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+#beta {
+  color: #abb1b1;
+  font-size: small;
+}
+
+.navbar {
+  padding-top: 40px;
+  display: flex;
+  padding-left: 7%;
+  margin-left: 20%;
+}
+.logo a {
+  font-size: 27px;
+  letter-spacing: 1px;
+  font-family: monospace;
+}
+
+.navbar-nav {
+
+  text-transform: uppercase;
+  padding-left: 15%;
+  list-style: none;
+  display: flex;
+
+}
+
+.navbar-nav a {
+  font-weight: bold;
+  color: white;
+  padding-left: 40px;
+  text-decoration: none;
+}
+
+.logo a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+#country {
+  margin-left: 40px;
+}
+
+.container {
+  background-image: linear-gradient(
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)), url("assets/img/pexels-artem-saranin-1676989.jpg");
+
+  height: 100vh;
+  width:100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+input[type=checkbox] {
+
+  display: none;
+
+}
+
+.hamburger {
+
+  display: none;
+  color: white;
+  font-size: 24px;
+
+  user-select: none;
+
+}
+
+@media (max-width: 1000px) {
+
+  .navbar-nav {
+
+      display: none;
+
+      position: absolute;
+
+
+
+      right: 0;
+
+      left: 20%;
+
+      text-align: center;
+
+      Padding: 16px 0;
+
+  }
+
+  .navbar-nav li:hover {
+
+      display: inline-block;
+
+      background-color: #585c5c;
+
+      transition: 0.3s ease;
+
+  }
+
+  .menu {
+      position: relative;
+      left: -100px;
+      top: 40px;
+  }
+
+  .navbar-nav li {
+
+      margin-top: 12px;
+
+  }
+
+  input[type=checkbox]:checked~.navbar-nav {
+
+      display: block;
+
+  }
+
+  .hamburger {
+      display: block;
+
+  }
+
+  .dropdown {
+
+      left: 0%;
+
+      top: 30px;
+
+      transform: translateX(35%);
+
+  }
+
+  .dropdown li:hover {
+
+      background-color: #2e3030;
+
+  }
+
+}
+
+.box {
+  /* padding: 50px; */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+
+  margin-top: 300px;
+  font-size: 50px;
+
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+  color: white;
+}
+
+#missiontxt {
+  font-size: 60px;
+  text-transform: capitalize;
+  padding: 5px;
+}
+
+#strtbtn {
+  color: #fcf9ff;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 2%;
+    background-color:rgb(221, 132, 224);
+}
+
+.btn {
+  text-align: center;
+
+}
+
+#box1 {
+  background-color: rgb(227, 227, 228);
+}
+
+#txt {
+  padding: 70px;
+  font-size: 20px;
+}
+
+.box {
+
+  background-color: rgb(250, 252, 252);
+}
+
+.row {
+
+  display: flex;
+  justify-content: center;
+}
+
+.imgtxt p {
+  padding: 10px;
+  color: #6c6d6d;
+
+}
+
+.d_box {
+  display: flex;
+  padding: 8%;
+  height: auto;
+  background-color: pink;
+  justify-content: center;
+}
+
+.column {
+
+  padding: 10px;
+  margin: 10px;
+}
+
+.txt {
+  position: relative;
+  top: 50%;
+  color: white;
+  font-size: 20px;
+  justify-content: center;
+}
+
+#strtbtn1 {
+  width: 200px;
+  margin-left: 40%;
+  padding: 15px;
+  margin-right: 10px;
+  color: white;
+  text-transform: uppercase;
+  background-color: rgb(212, 65, 176);
+  border-radius: 20px;
+
+}
+.foot{
+  justify-content: center;
+  display: flex;
+ 
+}
+.achoo{
+  margin: 20px;
+  padding: 80px;
+
+}
+.achoo a{
+   text-decoration: none;
+   color: #585c5c;
+   margin-top: 30px;
+  display: block;
+
+  font-size: 15px;
+}
+.line{
+  height: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.bottom-container{
+  display: flex;
+  padding-left: 90px;
+  padding-right: 90px;  
+}
+.copy{
+margin-left: 70%; 
+
+}
+@media  (max-width: 1000px) {
+
+#missiontxt {
+  font-size: 25px;
+  text-transform: capitalize;
+  padding: 5px;
+}
+  .achoo{
+      margin: 20px;
+      padding: 10px;
+   
+  }
+  .copy{
+      height: auto;
+  }
+  .foot{
+      justify-content: center;
+      display: block;
+     
+  }
+  
+
+  #strtbtn1 {
+      
+      margin-left: 9%;
+      color: white;
+      
+  }
+
+  .pinkbox {
+      display: block;
+      justify-content: center;
+  }
+  .bottom-container{
+      display: block;
+      padding: 1px;
+      margin: 2px;
+      
+  }
+  .row {
+      justify-content: center;
+      display: block;
+      object-fit: cover;
+  }
+}
